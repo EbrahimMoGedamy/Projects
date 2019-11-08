@@ -1,0 +1,16 @@
+PODS:
+  - AnimatedTabBar (0.1.7)
+
+DEPENDENCIES:
+  - AnimatedTabBar
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AnimatedTabBar
+
+SPEC CHECKSUMS:
+  AnimatedTabBar: ce6bc2c2993bd74b4b51c7977631e3321f417095
+
+PODFILE CHECKSUM: 57e9920323bcd0a8d4c3830197b2723d5407e425
+
+COCOAPODS: 1.7.5

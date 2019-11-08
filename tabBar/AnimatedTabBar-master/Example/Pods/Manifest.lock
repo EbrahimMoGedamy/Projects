@@ -1,0 +1,16 @@
+PODS:
+  - AnimatedTabBar (0.1.5)
+
+DEPENDENCIES:
+  - AnimatedTabBar (from `../`)
+
+EXTERNAL SOURCES:
+  AnimatedTabBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnimatedTabBar: 969204cc23401df27f5bf139ee427f2c1d19e045
+
+PODFILE CHECKSUM: fc65f9f27ba568edebbc876e6a99afcc1265bc10
+
+COCOAPODS: 1.6.0

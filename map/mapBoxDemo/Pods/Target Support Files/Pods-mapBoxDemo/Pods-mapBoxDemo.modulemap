@@ -1,0 +1,6 @@
+framework module Pods_mapBoxDemo {
+  umbrella header "Pods-mapBoxDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

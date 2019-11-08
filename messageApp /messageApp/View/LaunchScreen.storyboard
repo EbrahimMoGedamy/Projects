@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chat-2-icon" translatesAutoresizingMaskIntoConstraints="NO" id="pXm-uW-zY4">
+                                <rect key="frame" x="87" y="328" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="iQm-R2-6YU"/>
+                                    <constraint firstAttribute="width" constant="240" id="uqo-Oi-MD0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ChatMe App is developed by EbrahiMoGedamy" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0N8-SR-Kw2">
+                                <rect key="frame" x="0.0" y="658" width="414" height="204"/>
+                                <color key="backgroundColor" red="0.63529413938522339" green="0.90588241815567017" blue="0.90196084976196289" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="39"/>
+                                <color key="textColor" red="1" green="0.4487173256824859" blue="0.75664031079509764" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.94999999999999996" green="0.78517108570000005" blue="0.76000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.10970760957741088" green="0.86503714914428986" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="pXm-uW-zY4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9cS-vN-Zzp"/>
+                            <constraint firstItem="0N8-SR-Kw2" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="9d0-vD-PMN"/>
+                            <constraint firstItem="pXm-uW-zY4" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="JpE-7D-AZA"/>
+                            <constraint firstItem="0N8-SR-Kw2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="MCr-oZ-KM1"/>
+                            <constraint firstItem="0N8-SR-Kw2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="614" id="hlc-ia-UcZ"/>
+                            <constraint firstItem="0N8-SR-Kw2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tLS-xD-aor"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chat-2-icon" width="128" height="128"/>
+    </resources>
+</document>

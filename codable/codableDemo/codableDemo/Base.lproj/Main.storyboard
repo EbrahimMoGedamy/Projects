@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="scu-dn-M2o">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="tQn-oj-O8C">
+            <objects>
+                <tableViewController id="4xy-Us-kXZ" customClass="TableViewController" customModule="codableDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="eei-SP-Du3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="368" id="AsY-SC-yBa" customClass="TableViewCell" customModule="codableDemo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="368"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AsY-SC-yBa" id="TRE-RS-Pbd">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="367.66666666666669"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="adP-58-J7d">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="240"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="240" id="aLY-rO-joT"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWb-Aa-kaH">
+                                            <rect key="frame" x="20" y="296" width="347.66666666666669" height="26"/>
+                                            <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
+                                            <color key="textColor" red="0.22364619006849315" green="0.64720676369863017" blue="0.73373287671232879" alpha="0.93166738013698636" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uW7-dW-aZm">
+                                            <rect key="frame" x="20" y="255" width="354.33333333333331" height="26"/>
+                                            <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="20"/>
+                                            <color key="textColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="0.72811429794520544" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailingMargin" secondItem="aWb-Aa-kaH" secondAttribute="trailing" multiplier="0.4" constant="247" id="6Lk-vB-NYx"/>
+                                        <constraint firstItem="uW7-dW-aZm" firstAttribute="leading" secondItem="TRE-RS-Pbd" secondAttribute="leadingMargin" id="8Tg-r5-IFn"/>
+                                        <constraint firstAttribute="trailing" secondItem="adP-58-J7d" secondAttribute="trailing" id="Ag6-fd-3Nw"/>
+                                        <constraint firstItem="aWb-Aa-kaH" firstAttribute="top" secondItem="uW7-dW-aZm" secondAttribute="bottom" constant="15" id="B4H-BZ-MqR"/>
+                                        <constraint firstItem="uW7-dW-aZm" firstAttribute="top" secondItem="adP-58-J7d" secondAttribute="bottom" constant="15" id="FxH-cw-XnR"/>
+                                        <constraint firstItem="aWb-Aa-kaH" firstAttribute="leading" secondItem="TRE-RS-Pbd" secondAttribute="leadingMargin" id="V9n-lj-fTk"/>
+                                        <constraint firstItem="adP-58-J7d" firstAttribute="top" secondItem="TRE-RS-Pbd" secondAttribute="top" id="ZWc-39-kv7"/>
+                                        <constraint firstItem="adP-58-J7d" firstAttribute="leading" secondItem="TRE-RS-Pbd" secondAttribute="leading" id="c68-DP-zbu"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="uW7-dW-aZm" secondAttribute="trailing" multiplier="0.7" constant="132" id="qXD-40-no8"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="heroImage" destination="adP-58-J7d" id="ufR-Iu-Ydf"/>
+                                    <outlet property="name" destination="uW7-dW-aZm" id="cFZ-Qr-WtW"/>
+                                    <outlet property="team" destination="aWb-Aa-kaH" id="NhO-NW-VFQ"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="4xy-Us-kXZ" id="OnS-3S-7i6"/>
+                            <outlet property="delegate" destination="4xy-Us-kXZ" id="hAq-9J-1j3"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="nG4-gU-Yev"/>
+                    <connections>
+                        <outlet property="tableView" destination="eei-SP-Du3" id="9cR-Ey-PrL"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qGC-AT-4te" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1037.68115942029" y="125.54347826086958"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="E8D-lr-X3N">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="scu-dn-M2o" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nIX-yX-kiN">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="4xy-Us-kXZ" kind="relationship" relationship="rootViewController" id="Xg5-og-qSK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0wB-Cb-cza" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="310.14492753623193" y="125.54347826086958"/>
+        </scene>
+    </scenes>
+</document>

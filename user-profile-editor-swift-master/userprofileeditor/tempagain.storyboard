@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="GOd-NL-2MW">
+            <objects>
+                <viewController id="iEP-3Z-724" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yT8-rJ-MsO"/>
+                        <viewControllerLayoutGuide type="bottom" id="tiu-RP-rJS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ehO-Tw-IPc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Fill The Form" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvl-MH-cGr">
+                                <rect key="frame" x="2" y="20" width="371" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TB8-Gg-0FR">
+                                <rect key="frame" x="10" y="58" width="355" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: Ahmed Adel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iN8-v6-DOg">
+                                <rect key="frame" x="10" y="81" width="355" height="19"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahB-Gb-r4s">
+                                <rect key="frame" x="10" y="110" width="355" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ex: ahmed.adel.said@gmail.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="res-vI-fIJ">
+                                <rect key="frame" x="10" y="133" width="355" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtP-XP-dc0">
+                                <rect key="frame" x="10" y="177" width="355" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="s9j-cC-977">
+                                <rect key="frame" x="2" y="200" width="371" height="216"/>
+                                <color key="backgroundColor" red="0.92549020049999997" green="0.56290094209999997" blue="0.38747443529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HuG-T7-SEx">
+                                <rect key="frame" x="10" y="426" width="355" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="iWj-M8-AQW">
+                                <rect key="frame" x="2" y="449" width="371" height="216"/>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92549020049999997" green="0.56290094209999997" blue="0.38747443529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="iN8-v6-DOg" secondAttribute="trailing" constant="10" id="4MV-KS-1Ya"/>
+                            <constraint firstItem="s9j-cC-977" firstAttribute="top" secondItem="rtP-XP-dc0" secondAttribute="bottom" constant="2" id="4xC-y5-uNe"/>
+                            <constraint firstItem="iN8-v6-DOg" firstAttribute="top" secondItem="TB8-Gg-0FR" secondAttribute="bottom" constant="2" id="6UU-Zh-68e"/>
+                            <constraint firstItem="rtP-XP-dc0" firstAttribute="leading" secondItem="ehO-Tw-IPc" secondAttribute="leading" constant="10" id="A29-af-ltS"/>
+                            <constraint firstItem="ahB-Gb-r4s" firstAttribute="leading" secondItem="ehO-Tw-IPc" secondAttribute="leading" constant="10" id="Ac8-43-qRb"/>
+                            <constraint firstItem="TB8-Gg-0FR" firstAttribute="top" secondItem="rvl-MH-cGr" secondAttribute="bottom" constant="2" id="BdC-Ag-gXf"/>
+                            <constraint firstItem="rvl-MH-cGr" firstAttribute="top" secondItem="ehO-Tw-IPc" secondAttribute="top" constant="20" id="GOc-nv-yJ7"/>
+                            <constraint firstItem="rtP-XP-dc0" firstAttribute="top" secondItem="res-vI-fIJ" secondAttribute="bottom" constant="10" id="GbO-Qv-qd1"/>
+                            <constraint firstItem="res-vI-fIJ" firstAttribute="leading" secondItem="ehO-Tw-IPc" secondAttribute="leading" constant="10" id="Izk-vG-wsu"/>
+                            <constraint firstAttribute="trailing" secondItem="rvl-MH-cGr" secondAttribute="trailing" constant="2" id="L35-9W-1e5"/>
+                            <constraint firstItem="TB8-Gg-0FR" firstAttribute="leading" secondItem="ehO-Tw-IPc" secondAttribute="leading" constant="10" id="OB2-8X-5j6"/>
+                            <constraint firstItem="rvl-MH-cGr" firstAttribute="leading" secondItem="ehO-Tw-IPc" secondAttribute="leading" constant="2" id="Pon-QV-l4X"/>
+                            <constraint firstAttribute="trailing" secondItem="s9j-cC-977" secondAttribute="trailing" constant="2" id="R1P-FS-MX1"/>
+                            <constraint firstItem="HuG-T7-SEx" firstAttribute="top" secondItem="s9j-cC-977" secondAttribute="bottom" constant="10" id="Tqa-4k-WzZ"/>
+                            <constraint firstItem="res-vI-fIJ" firstAttribute="top" secondItem="ahB-Gb-r4s" secondAttribute="bottom" constant="2" id="UEm-vg-NXr"/>
+                            <constraint firstAttribute="trailing" secondItem="rtP-XP-dc0" secondAttribute="trailing" constant="10" id="ald-LL-YY5"/>
+                            <constraint firstItem="iWj-M8-AQW" firstAttribute="top" secondItem="HuG-T7-SEx" secondAttribute="bottom" constant="2" id="dDo-ed-eX2"/>
+                            <constraint firstAttribute="trailing" secondItem="TB8-Gg-0FR" secondAttribute="trailing" constant="10" id="eg2-Ez-PWf"/>
+                            <constraint firstItem="s9j-cC-977" firstAttribute="leading" secondItem="ehO-Tw-IPc" secondAttribute="leading" constant="2" id="fgs-tB-zCZ"/>
+                            <constraint firstAttribute="trailing" secondItem="HuG-T7-SEx" secondAttribute="trailing" constant="10" id="i3e-GY-1WI"/>
+                            <constraint firstAttribute="bottom" secondItem="iWj-M8-AQW" secondAttribute="bottom" constant="2" id="ir7-d7-k0s"/>
+                            <constraint firstItem="iWj-M8-AQW" firstAttribute="leading" secondItem="ehO-Tw-IPc" secondAttribute="leading" constant="2" id="js3-We-aXD"/>
+                            <constraint firstItem="HuG-T7-SEx" firstAttribute="leading" secondItem="ehO-Tw-IPc" secondAttribute="leading" constant="10" id="luD-bo-7j7"/>
+                            <constraint firstAttribute="trailing" secondItem="iWj-M8-AQW" secondAttribute="trailing" constant="2" id="mfo-9r-aVL"/>
+                            <constraint firstAttribute="trailing" secondItem="res-vI-fIJ" secondAttribute="trailing" constant="10" id="qp9-3S-RuT"/>
+                            <constraint firstAttribute="trailing" secondItem="ahB-Gb-r4s" secondAttribute="trailing" constant="10" id="rXc-KX-88x"/>
+                            <constraint firstItem="ahB-Gb-r4s" firstAttribute="top" secondItem="iN8-v6-DOg" secondAttribute="bottom" constant="10" id="t2d-On-YCs"/>
+                            <constraint firstItem="iN8-v6-DOg" firstAttribute="leading" secondItem="ehO-Tw-IPc" secondAttribute="leading" constant="10" id="zsG-nh-wJm"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y1e-5Z-K6m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="102"/>
+        </scene>
+    </scenes>
+</document>

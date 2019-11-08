@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="jsonGETPost" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="zPz-xz-U3u">
+                                <rect key="frame" x="132" y="328" width="150" height="80"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHo-Oh-x4e">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="30"/>
+                                        <color key="backgroundColor" red="0.33549472400000002" green="0.4837479126" blue="0.88452606330000005" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                        <state key="normal" title="GET">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="GetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rub-nb-kar"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Gj-07-25X">
+                                        <rect key="frame" x="0.0" y="50" width="150" height="30"/>
+                                        <color key="backgroundColor" red="0.33549472400000002" green="0.4837479126" blue="0.88452606330000005" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                        <state key="normal" title="POST">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="postPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Kt-US-yFQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Btd-OU-9DM"/>
+                                    <constraint firstAttribute="width" constant="150" id="iz0-Iv-2Bh"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="91R-2g-09D">
+                                <rect key="frame" x="132" y="543" width="150" height="50"/>
+                                <color key="backgroundColor" red="0.33549472400000002" green="0.4837479126" blue="0.88452606330000005" alpha="1" colorSpace="custom" customColorSpace="adobeRGB1998"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="T3x-El-DVe"/>
+                                    <constraint firstAttribute="width" constant="150" id="oRu-W2-HfJ"/>
+                                </constraints>
+                                <state key="normal" title="Send Message">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="GetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="neB-sU-cl0"/>
+                                    <action selector="sendMessagePost:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zGf-ly-Drx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="91R-2g-09D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="28O-1V-Zyr"/>
+                            <constraint firstItem="zPz-xz-U3u" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HSm-Iy-iZW"/>
+                            <constraint firstItem="zPz-xz-U3u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LOR-Mf-bDF"/>
+                            <constraint firstItem="91R-2g-09D" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="200" id="ZjH-Zo-KjF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="129.61956521739131"/>
+        </scene>
+    </scenes>
+</document>
