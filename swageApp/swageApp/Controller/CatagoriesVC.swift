@@ -44,7 +44,7 @@ class CatagoriesVC: UIViewController , UITableViewDelegate , UITableViewDataSour
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let prepareSegue = segue.destination as? ProductsVC{
-            var barBu = UIBarButtonItem( )
+            let barBu = UIBarButtonItem( )
             barBu.title = " "
             navigationItem.backBarButtonItem = barBu
             assert(sender as? Category != nil)

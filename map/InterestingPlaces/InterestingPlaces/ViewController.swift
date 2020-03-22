@@ -188,7 +188,7 @@ extension ViewController: CLLocationManagerDelegate {
   func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
     
     currentLocation = locations.first
-    print(currentLocation)
+    print(currentLocation!)
     
     
 //    if currentLocation == nil {

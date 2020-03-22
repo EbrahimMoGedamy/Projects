@@ -49,3 +49,18 @@ func UPLOD()
                 }
         })
     }
+
+
+// MARK : To print ll countries
+var countries: [String] = {
+    var arrayOfCountries: [String] = []
+    
+    for code in NSLocale.isoCountryCodes as [String] {
+       // let id = NSLocale.localeIdentifier(fromComponents: [NSLocale.Key.countryCode.rawValue: code])
+        let id = NSLocale.localeIdentifierFromComponents([NSLocaleCountryCode: code])
+        let name = NSLocale(localeIdentifier: "en_UK").displayName(forKey: NSLocale.Key.identifier, value: id) ?? "Country not found for code: \(code)"
+        arrayOfCountries.append(name)
+    }
+    
+    return arrayOfCountries
+}()

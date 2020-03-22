@@ -1,0 +1,30 @@
+
+/* Class = "UITextField"; placeholder = "إسم المستخدم"; ObjectID = "4Qr-CG-4bm"; */
+"4Qr-CG-4bm.placeholder" = "إسم المستخدم";
+
+/* Class = "UIButton"; normalTitle = "إنجليزي"; ObjectID = "7kF-3Q-40O"; */
+"7kF-3Q-40O.normalTitle" = "إنجليزي";
+
+/* Class = "UIButton"; normalTitle = "حفظ"; ObjectID = "Dfx-4g-9Kj"; */
+"Dfx-4g-9Kj.normalTitle" = "حفظ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "GEA-kw-wOi"; */
+"GEA-kw-wOi.title" = " ";
+
+/* Class = "UITextField"; placeholder = "الهاتف"; ObjectID = "GUS-NT-4N7"; */
+"GUS-NT-4N7.placeholder" = "الهاتف";
+
+/* Class = "UIButton"; normalTitle = "عربي"; ObjectID = "IdL-yt-Djd"; */
+"IdL-yt-Djd.normalTitle" = "عربي";
+
+/* Class = "UITextField"; placeholder = "المدينة"; ObjectID = "Jwp-8D-wlK"; */
+"Jwp-8D-wlK.placeholder" = "المدينة";
+
+/* Class = "UITextField"; placeholder = "العنوان"; ObjectID = "PXc-Aa-gsi"; */
+"PXc-Aa-gsi.placeholder" = "العنوان";
+
+/* Class = "UINavigationItem"; title = "الإضافة"; ObjectID = "eBb-KS-rQu"; */
+"eBb-KS-rQu.title" = "الإضافة";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "wUB-AY-hNM"; */
+"wUB-AY-hNM.title" = " ";

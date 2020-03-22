@@ -10,12 +10,12 @@
 		035B4BFE233D42C90014A45B /* SelectTimeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035B4BFD233D42C90014A45B /* SelectTimeVC.storyboard */; };
 		035B4C00233D43320014A45B /* SelectTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035B4BFF233D43320014A45B /* SelectTimeVC.swift */; };
 		03B49D9A233CFD7D00FBBBFC /* DatePopUPVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B49D98233CFD7D00FBBBFC /* DatePopUPVC.storyboard */; };
+		03DA29C42397C50500F6A1E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DA29C32397C50500F6A1E7 /* Assets.xcassets */; };
 		03E50A4E233B94D6002D2193 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E50A4D233B94D6002D2193 /* AppDelegate.swift */; };
 		03E50A50233B94D6002D2193 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E50A4F233B94D6002D2193 /* SceneDelegate.swift */; };
 		03E50A52233B94D6002D2193 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E50A51233B94D6002D2193 /* FirstViewController.swift */; };
 		03E50A54233B94D6002D2193 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E50A53233B94D6002D2193 /* SecondViewController.swift */; };
 		03E50A57233B94D6002D2193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E50A55233B94D6002D2193 /* Main.storyboard */; };
-		03E50A59233B94D8002D2193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E50A58233B94D8002D2193 /* Assets.xcassets */; };
 		03E50A5C233B94D8002D2193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E50A5A233B94D8002D2193 /* LaunchScreen.storyboard */; };
 		03E50A64233B98E4002D2193 /* DatePopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E50A63233B98E4002D2193 /* DatePopUpVC.swift */; };
 /* End PBXBuildFile section */
@@ -24,13 +24,13 @@
 		035B4BFD233D42C90014A45B /* SelectTimeVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectTimeVC.storyboard; sourceTree = "<group>"; };
 		035B4BFF233D43320014A45B /* SelectTimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeVC.swift; sourceTree = "<group>"; };
 		03B49D99233CFD7D00FBBBFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = reusablePopUpDemo/Base.lproj/DatePopUPVC.storyboard; sourceTree = "<group>"; };
+		03DA29C32397C50500F6A1E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03E50A4A233B94D6002D2193 /* reusablePopUpDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reusablePopUpDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E50A4D233B94D6002D2193 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03E50A4F233B94D6002D2193 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		03E50A51233B94D6002D2193 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		03E50A53233B94D6002D2193 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		03E50A56233B94D6002D2193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		03E50A58233B94D8002D2193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03E50A5B233B94D8002D2193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03E50A5D233B94D8002D2193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03E50A63233B98E4002D2193 /* DatePopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePopUpVC.swift; sourceTree = "<group>"; };
@@ -69,9 +69,9 @@
 				03E50A4D233B94D6002D2193 /* AppDelegate.swift */,
 				03E50A4F233B94D6002D2193 /* SceneDelegate.swift */,
 				03E50A51233B94D6002D2193 /* FirstViewController.swift */,
+				03DA29C32397C50500F6A1E7 /* Assets.xcassets */,
 				03E50A53233B94D6002D2193 /* SecondViewController.swift */,
 				03E50A55233B94D6002D2193 /* Main.storyboard */,
-				03E50A58233B94D8002D2193 /* Assets.xcassets */,
 				03E50A5A233B94D8002D2193 /* LaunchScreen.storyboard */,
 				03E50A63233B98E4002D2193 /* DatePopUpVC.swift */,
 				03B49D98233CFD7D00FBBBFC /* DatePopUPVC.storyboard */,
@@ -142,8 +142,8 @@
 			files = (
 				03B49D9A233CFD7D00FBBBFC /* DatePopUPVC.storyboard in Resources */,
 				03E50A5C233B94D8002D2193 /* LaunchScreen.storyboard in Resources */,
-				03E50A59233B94D8002D2193 /* Assets.xcassets in Resources */,
 				035B4BFE233D42C90014A45B /* SelectTimeVC.storyboard in Resources */,
+				03DA29C42397C50500F6A1E7 /* Assets.xcassets in Resources */,
 				03E50A57233B94D6002D2193 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

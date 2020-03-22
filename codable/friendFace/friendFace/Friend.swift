@@ -22,3 +22,7 @@ struct Friend : Codable {
     let friends : [Connection]
     
 }
+struct Connection : Codable {
+    var name : String
+    var id : UUID
+}

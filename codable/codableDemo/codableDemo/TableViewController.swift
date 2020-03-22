@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 import AlamofireImage
-import SwiftyJSON
+
 
 
 class TableViewController : UIViewController , UITableViewDelegate, UITableViewDataSource {
@@ -17,7 +17,8 @@ class TableViewController : UIViewController , UITableViewDelegate, UITableViewD
     @IBOutlet var tableView: UITableView!
     var arrOfHeros = [Hero]( )
     
-    let url = URL(string: "https://simplifiedcoding.net/demos/marvel/")
+    let baseURl = URL(string: "https://simplifiedcoding.net/demos/marvel/")
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return arrOfHeros.count
@@ -70,7 +71,7 @@ class TableViewController : UIViewController , UITableViewDelegate, UITableViewD
         
         //displaying data in tableview
         // Alamofire with codable
-        Alamofire.request(url!).responseJSON { response in
+        Alamofire.request(baseURl!).responseJSON { response in
             let data = response.data
             
             do{

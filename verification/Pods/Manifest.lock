@@ -1,0 +1,16 @@
+PODS:
+  - SinchVerification (2.0.6)
+
+DEPENDENCIES:
+  - SinchVerification
+
+SPEC REPOS:
+  trunk:
+    - SinchVerification
+
+SPEC CHECKSUMS:
+  SinchVerification: 3bf62ff2d57eb10ecc27796ce9736c786644fe23
+
+PODFILE CHECKSUM: 360bee9f5fc34362e96e7104b9d76a54be18e5f7
+
+COCOAPODS: 1.8.3

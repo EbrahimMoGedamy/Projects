@@ -8,32 +8,15 @@
 
 import Foundation
 
-class Comments : Codable {
-    let coments : [Comment]
-    
-    init(comments : [Comment] ) {
-        self.coments = comments
+
+struct CommentElement: Codable {
+    let postID, id: Int
+    let name, email, body: String
+
+    enum CodingKeys: String, CodingKey {
+        case postID = "postId"
+        case id, name, email, body
     }
 }
 
-class Comment : Codable {
-    
-    let postId : String?
-    let id : Int?
-    let name : String?
-    let email : String?
-    let body : String?
-    
-    
-    
-    init(postId : String , id : Int , name : String , email : String , body : String) {
-        
-        self.body = body
-        self.email = email
-        self.id = id
-        self.name = name
-        self.postId = postId
-    }
-    
-    
-}
+typealias Commentt = [CommentElement]

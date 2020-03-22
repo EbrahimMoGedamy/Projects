@@ -21,7 +21,9 @@ class ViewController: UIViewController {
     
     func downloadJson()  {
         
-        guard let url = url else {return}
+        guard let url = url else {
+            print("URL is Not found")
+            return}
         URLSession.shared.dataTask(with: url) { (data, response, error) in
            
             guard let data = data , error == nil , response != nil else {
@@ -31,7 +33,7 @@ class ViewController: UIViewController {
              print("downloaded")
             do{
                 let decoder = JSONDecoder()
-                let comment = try decoder.decode(Comment.self, from: data)
+                let comment = try decoder.decode(Commentt.self, from: data)
                 print(comment)
             }catch{
                 print("SomeThing Go Wrong Aftar Downloading")

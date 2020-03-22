@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class TableVC: UITableViewController  , UISearchResultsUpdating , UISearchBarDelegate , UISearchControllerDelegate{
     
     func updateSearchResults(for searchController: UISearchController) {
@@ -16,6 +17,7 @@ class TableVC: UITableViewController  , UISearchResultsUpdating , UISearchBarDel
     
     
     var friends : [Friend] = []
+    var friendsData : Friend?
     var filteredFriends = [Friend]( )
     
     override func viewDidLoad() {
@@ -50,6 +52,28 @@ class TableVC: UITableViewController  , UISearchResultsUpdating , UISearchBarDel
                 print("Error : \(error.localizedDescription)")
             }
         }
+        
+//        DispatchQueue.global().async {
+//            do{
+//                let url = URL(string: "https://www.hackingwithswift.com/samples/friendface.json")!
+//                let data = try Data(contentsOf: url)
+//
+//                let decoder = JSONDecoder( )
+//                decoder.dateDecodingStrategy = .iso8601 // to get date formate
+//
+//                let downloadedFriedsModel = try decoder.decode([Friend].self, from: data)
+//
+//                DispatchQueue.main.async {
+//                    self.friends = downloadedFriedsModel
+//                    self.filteredFriends = downloadedFriedsModel
+//                    self.tableView.reloadData()
+//
+//                }
+//
+//            }catch{
+//                print("Error : \(error.localizedDescription)")
+//            }
+//        }
         
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

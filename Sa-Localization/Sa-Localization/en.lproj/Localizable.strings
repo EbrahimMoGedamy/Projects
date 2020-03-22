@@ -1,0 +1,173 @@
+/* 
+  Localizable.strings
+  Sa-Localization
+
+  Created by Khaled on 8/1/18.
+  Copyright © 2018 Khaled. All rights reserved.
+*/
+
+//registation validtion
+"valid_error_title" = "Invalid Fields";
+"opertaion_success" = "Operation success";
+"opertaion_fails" = "Opertaion failed";
+
+"emptyLoginUser" = "Email or Mobile number is required";
+"emptyUserName" = "Username is required";
+"emptyUserPassword" = "Password is required";
+"validUserPassword" = "Password must be 6 chars or more";
+"emptyUserMail" = "Email is required";
+"validUserMail" = "Enter your mail in correct format";
+"emptyUserPhone" = "Mobile number is required";
+"emptyCover" = "Cover type is required";
+"validUserPhone" = "Mobile number must have min 10 digit and max 15 digits";
+"emptyCountry" = "You must select your country";
+"emptyCity" = "You must select your city";
+"emptyLocation" = "You must detect your address location";
+"invalidLogin" = "Invalid phone number or password ";
+"invalidReg" = "Your input date is taken by another user please try with diffrent input";
+"registrationSuccess" = "Registeration Successfully";
+"oldPassRequired" = "Old password is required";
+"newPassRequired" = "New password is required";
+"changePassSucess" = "Password changed successfully";
+"changePassFails" = "Fail to change password try agin";
+"emptyVRCode" = "Verification code is required";
+"validConfirmPass" = "Confirm password doesnnot match";
+"emptyDateOfBirth" = "Date of birth is required";
+"validAcceptTerms" = "You should accept our terms and conditions to use our app";
+"verfCode" = "Verification Code";
+"emptyVerfCode" = "Verification code is required";
+"emptyComment" = "Enter your comment first";
+"emptyNoteRequest" = "Please complete all fields first";
+"emptyDates" = "You must select start and end date";
+"validAllField" = "You must complete all fields first";
+"validConfPass" = "Confirm password is incorrect";
+"emptyUserImage" = "Choose your profile image first";
+"emptyRecievingLoc" = "Please detect your recieving location";
+"emptyTime" = "Choose delivery time";
+"emptyGifted" = "Sender name is required";
+
+//palecHolders
+"regUserAuthe" = "Email or Phone Number";
+"regPass" = "Password";
+"regOldPass" = "Old password";
+"regNewPass" = "New password";
+"regConfPass" = "Confirm new password";
+"regUserName" = "Username";
+"regPhone" = "Phone Number";
+"regMail" = "Email";
+"regVerfCode" = "Activiation code";
+"regBid" = "Your Bid";
+"regReuestNum" = "Request number or Phone number";
+"regOldPass" = "Old password";
+"regNewPass" = "New password";
+"regConfPass" = "Confirm new password";
+"regCity" = "City";
+"regLocation" = "Location";
+"detectTime" = "Choose delivery time";
+"reqReciverName" = "Reciever name";
+"reqSenderName" = "Sender name";
+"reqMessage" = "Message";
+"reqNotes" = "Notes";
+"reqCode" = "Discount code";
+"supportMsg" = "Message content";
+"supportMsgType" = "Message type";
+
+//Taps
+"stores" = "Stores";
+"gifts" = "Gifts";
+"offers" = "Offers";
+"basket" = "Cart";
+"settings" = "Settings";
+
+
+//Festoon
+"Graduate" = "Graduate";
+"NormalFestoon" = "NormalFestoon";
+"BirthDay" = "BirthDay";
+"Welcome" = "Welcome";
+"Fest" = "Fest";
+"Other" = "Other";
+
+
+"offers" = "Offers";
+"pkgs" =  "Packages";
+"events" = "Events";
+"collectPkg" = "Make yours";
+
+
+//titles
+"login" = "Login";
+"register" = "Register";
+"home" = "Stores";
+"profile" = "Profile";
+"myRequests" = "My Requests";
+"notifications" = "Notifications";
+"privacyPolicy" = "Privacy Policy";
+"termsConds" = "Terms of use";
+
+"storesCityTile" = "Stores in ' %@ ' ";
+
+"price" = "Price : ";
+"currency" = "SAR";
+"openState" = "Opening Now";
+"closeState" = "Closing Now";
+"ratingResult" = "%@ from Success request";
+
+"addAlertTitle" = "Order Confirmation";
+"addAlertMsg" = "Are you sure to add order to your basket ?";
+
+"loginFaildTitle" = "Failed to login";
+"regFaildTitle" = "Failed to register";
+"updateFaildTitle" = "Failed to Update info";
+"updateSucessTitle" = "Success to Update info";
+"loginFaild" = "There is no user with this data";
+"regFaild" = "Data you enter is used by another one";
+"updatePassFaild" = "Current password is incorrect";
+
+"locationTitle" = "Enable location service";
+"locationMsg" = "Application want to access current location to get the optimal and accurate data";
+"locationSettting" = "Go to settings";
+"locationLater" = "Later";
+
+"noResult" = "No Result found";
+"tryAgain" = "Try again";
+
+"operationSuccess" = "Operation Success";
+"search" = "Search";
+"ok" = "OK";
+"cancel" = "Cancel";
+"conn_error" = "Connection Error";
+"loginNow" = "Relogin Now";
+"expireToken" = "Current user session expired";
+"expireTokenTitle" = "Pleas relogin again";
+"loginRequired" = "Please login use this feature";
+"loginBtn" = "Login Now";
+
+"updateAccSuccess" = "Profile updated Successfully";
+
+"conf" = "Continue";
+"rej" = "Cancel";
+
+"languageAler" = "Language Changing";
+"langageAlerTile" = "Are you want to change application language ?";
+"yes" = "Yes";
+"no" = "No";
+"en" = "English language";
+"ar" = "Arabic language";
+
+//Localized Nots Msgs
+"Push_New_Order" = "You have a new application that needs approval";
+"Push_Order_State_Delivered" = "You have successfully received the order";
+"Push_Order_State_Canceled" = "Your order has been canceled : %@";
+"Push_Order_State_Accepted" = "Your request has been approved";
+"Push_Order_State_Paid" = "Payment confirmed";
+"Push_Order_State_User_Paid" = "%@ Value of request";
+"Push_Order_State_Processing" = "Processing Your Order";
+"Push_Order_State_Shipping" = "Your order is being shipped now";
+"Push_Discount_Code" = "Discount code sent by admin %@";
+"Push_Discount_Code_Edit" = "Discount Code %@";
+"Push_Request_accepted" = "Your membership request has been activated %@";
+"Push_New_Rate" = "Your store has been rated as %@ stars";
+"Push_Message_Reply" = "Admin replays to your message : \n %@";
+"Push_General_notify" = "%@";
+"Push_Reminder" = "%@";

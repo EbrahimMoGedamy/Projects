@@ -1,0 +1,170 @@
+/* 
+  Localizable.strings
+  Sa-Localization
+
+  Created by Khaled on 8/1/18.
+  Copyright © 2018 Khaled. All rights reserved.
+*/
+
+//registation validtion
+"valid_error_title" = "الحقول غير صالحة";
+"opertaion_success" = "عملية ناحجة";
+"opertaion_fails" = "فشل العملية";
+
+"emptyLoginUser" = "أدخل البريد الإلكتروني أو رقم الهاتف";
+"emptyUserName" = "أدخل إسم المستخدم";
+"emptyUserPassword" = "أدخل كلمة المرور";
+"validUserPassword" = "كلمة المرور لا تقل عن ٦ رموز";
+"emptyUserMail" = "أدخل البريد الإلكتروني";
+"validUserMail" = "تأكد من إدخال البريد الإلكتروني بطريقه صحيحة";
+"emptyUserPhone" = "أدخل رقم الهاتف";
+"emptyCover" = "إختر نوع التغليف";
+"validUserPhone" = "رقم الجوال لايجب ان يقل عن ١٠ ارقام ولا يزيد عن ١٥ رقم";
+"emptyCountry" = "إختر الدوله";
+"emptyCity" = "إختر المدينة";
+"emptyLocation" = "من فضلك قم بتحديد مكانك ( عنوانك )";
+"invalidLogin" = "خطأ في رقم الجوال او كلمة المرور !";
+"invalidReg" = "البيانات المدخلة مستخدمة من قبل مستخدم آخر \n من فضلك حاول التسجيل ببيانات أخري";
+"registrationSuccess" = "تم التسجيل بنجاح";
+"oldPassRequired" = "أدخل كلمة المرور السابقة";
+"newPassRequired" = "أدخل كلمة المرور الجديدة";
+"changePassSucess" = "تم التعديل بنجاح";
+"changePassFails" = "فشل تعديل كلمة المرور";
+"emptyVRCode" = "أدخل كود التحقق أولاً";
+"validConfirmPass" = "تأكيد كلمة المرور غير متاطابقة ";
+"emptyDateOfBirth" = "إختر تاريخ الميلاد";
+"validAcceptTerms" = "يلزم الموافقه علي الشروط والأحكام لإستخدام التطبيق";
+"verfCode" = "كود التحقق";
+"emptyVerfCode" = "أدخل كود التحقق";
+"emptyNoteRequest" = "من فضلك أدخل جميع الحقول أولاً";
+"emptyDates" = "يلزم تحديد تاريخ البداية والنهاية";
+"validAllField" = "من فضلك أدخل جميع الحقول أولاً";
+"validConfPass" = "خطأ في تأكيد كلمة المرور";
+"emptyUserImage" = "أختر صورة الملف الشخصي أولاً";
+"emptyRecievingLoc" = "من فضلك حدد مكان الإستلام";
+"emptyTime" = "من فضلك حدد ميعاد التوصيل";
+"emptyGifted" = "من فضلك أدخل اسم المرسل";
+
+//palecHolders
+"regUserAuthe" = "الهاتف أو البريد الالكتروني";
+"regPass" = "كلمة المرور";
+"regOldPass" = "كلمة المرور السابقة";
+"regNewPass" = "كلمة المرور الجديدة";
+"regConfPass" = "تأكيد كلمة المرور الجديدة";
+"regUserName" = "إسم المستخدم";
+"regPhone" = " رقم الجوال";
+"regMail" = "البريد الإلكتروني";
+"regVerfCode" = "كود التفعيل";
+"regReuestNum" = "رقم الطلب أو رقم الهاتف";
+"regOldPass" = "كلمة المرور السابقة";
+"regNewPass" = "كلمة المرور الجديدة";
+"regConfPass" = "تأكيد كلمة المرور الجديدة";
+"regCity" = "المدينة";
+"regLocation" = "الموقع";
+"detectTime" = "إختر موعد التسليم";
+"reqSenderName" = "إسم المرسل";
+"reqReciverName" = "إسم المستقبل";
+"reqMessage" = "الرسالة";
+"reqNotes" = "ملاحظات";
+"reqCode" = "كود الخصم";
+"supportMsg" = "محتوي الرسالة";
+"supportMsgType" = "نوع الرسالة";
+
+//Taps
+"stores" = "متـاجر";
+"gifts" = "إهداء";
+"offers" = "العروض";
+"basket" = "السـلة";
+"settings" = "الإعدادات";
+
+//Festoon
+"Graduate" = "تخرج";
+"NormalFestoon" = "NormalFestoon";
+"BirthDay" = "عيد ميلاد";
+"Welcome" = "ترحاب";
+"Fest" = "أعياد";
+"Other" = "أخري";
+
+
+"offers" = "عروضنا";
+"pkgs" =  "باقات جاهزة";
+"events" = "مناسبات";
+"collectPkg" = "نسق باقتك";
+
+//titles
+"login" = "تسجيل دخول";
+"register" = "عضو جديد";
+"home" = "المتاجر";
+"profile" = "حسابي";
+"myRequests" = "طلباتي";
+"notifications" = "الإشعارات";
+"privacyPolicy" = "سياسة الخصوصية";
+"termsConds" = "قواعد الإستخدام";
+
+"storesCityTile" = "المتاجر المتواجده في ' %@ ' ";
+
+"price" = "السعر: ";
+"currency" = "ريال";
+"openState" = "مفتوح الآن";
+"closeState" = "مغلق الآن";
+"ratingResult" = "من %@ طلب ناجح";
+
+"addAlertTitle" = "تأكيد الطلب";
+"addAlertMsg" = "هل أنت متأكد من إستكمال إضافة الطلب للسلة ؟";
+
+"loginFaildTitle" = "Failed to login";
+"regFaildTitle" = "Failed to register";
+"updateFaildTitle" = "Failed to Update info";
+"updateSucessTitle" = "Success to Update info";
+"loginFaild" = "There is no user with this data";
+"regFaild" = "Data you enter is used by another one";
+"updatePassFaild" = "Current password is incorrect";
+
+"locationTitle" = "يلزم تفعيل خدمة تحديد الموقع";
+"locationMsg" = "بحاجه لمعرفه موقعك للحصول علي النتائج السليمة. الرجاء تشغيل خدمة تحديد الموقع";
+"locationSettting" = "إذهب إلي الإعدادات";
+"locationLater" = "لاحقاً";
+
+"noResult" = "لا تتوفر نتائج الآن";
+"tryAgain" = "إعادة الطلب";
+
+"operationSuccess" = "عملية ناجحة";
+"search" = "بحث";
+"ok" = "موافق";
+"cancel" = "رجوع";
+"conn_error" = "فشل الإتصال بالإنترنت";
+"loginNow" = "إعادة تسجيل الدخول";
+"expireToken" = "الجلسة الحالية غير صالحة";
+"expireTokenTitle" = "من فضلك قم بتسجيل الدخول من جديد";
+"loginRequired" = "يلزم تسجيل الدخول أولاً";
+"loginBtn" = "تسجيل الآن";
+
+"updateAccSuccess" = "تم تعديل البيانات بنجاح";
+
+"languageAler" = "تغيير اللغة";
+"langageAlerTile" = "هل انت متأكد من تغيير لغة التطبيق ؟";
+"yes" = "موافق";
+"no" = "رجوع";
+"en" = "اللغة الإنجليزية";
+"ar" = "اللغة العربية";
+
+"conf" = "إستمرار";
+"rej" = "إلغاء";
+
+//Localized Nots Msgs
+
+"Push_New_Order" = "لديك طلب جديد يحتاج للموافقة";
+"Push_Order_State_Delivered" = "لقد إستلمت الطلبية بنجاح";
+"Push_Order_State_Canceled" = "تم إلغاء طلبك : %@";
+"Push_Order_State_Accepted" = "تمت الموافقة علي طلبك";
+"Push_Order_State_Paid" = "تم تأكيد الدفع";
+"Push_Order_State_User_Paid" = "تم دفع %@ قيمة الطلب";
+"Push_Order_State_Processing" = "جاري تجهيز الطلب الخاص بك";
+"Push_Order_State_Shipping" = "جاري شحن طلبك الآن";
+"Push_Discount_Code" = "تم إسال كود خصم من قبل الإدارة %@";
+"Push_Discount_Code_Edit" = "تم تعديل كود الخصم %@";
+"Push_Request_accepted" = "تم تفعيل طلب العضوية الخاص بك %@";
+"Push_New_Rate" = "تم تقييم متجرك بـ %@ نجوم";
+"Push_Message_Reply" = "تم الرد علي رسالتك : \n %@";
+"Push_General_notify" = "%@";
+"Push_Reminder" = "%@";

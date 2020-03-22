@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03B6CDA12378100E00F533D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B6CDA02378100E00F533D6 /* AppDelegate.swift */; };
+		03B6CDA32378100E00F533D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B6CDA22378100E00F533D6 /* SceneDelegate.swift */; };
+		03B6CDA52378100E00F533D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B6CDA42378100E00F533D6 /* ViewController.swift */; };
+		03B6CDA82378100E00F533D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B6CDA62378100E00F533D6 /* Main.storyboard */; };
+		03B6CDAA2378100F00F533D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03B6CDA92378100F00F533D6 /* Assets.xcassets */; };
+		03B6CDAD2378100F00F533D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03B6CDAB2378100F00F533D6 /* LaunchScreen.storyboard */; };
+		1995F06F3DC991C61C66114B /* Pods_resetPasswordApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DE80C1C780ADA7D94AEDA2 /* Pods_resetPasswordApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03B6CD9D2378100E00F533D6 /* resetPasswordApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = resetPasswordApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03B6CDA02378100E00F533D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03B6CDA22378100E00F533D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		03B6CDA42378100E00F533D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03B6CDA72378100E00F533D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03B6CDA92378100F00F533D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03B6CDAC2378100F00F533D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03B6CDAE2378100F00F533D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DE80C1C780ADA7D94AEDA2 /* Pods_resetPasswordApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_resetPasswordApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E94CC3D24305305F56CB01 /* Pods-resetPasswordApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-resetPasswordApp.debug.xcconfig"; path = "Target Support Files/Pods-resetPasswordApp/Pods-resetPasswordApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5D405415C1FC9566ACC8FF23 /* Pods-resetPasswordApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-resetPasswordApp.release.xcconfig"; path = "Target Support Files/Pods-resetPasswordApp/Pods-resetPasswordApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03B6CD9A2378100E00F533D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1995F06F3DC991C61C66114B /* Pods_resetPasswordApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B6CD942378100E00F533D6 = {
+			isa = PBXGroup;
+			children = (
+				03B6CD9F2378100E00F533D6 /* resetPasswordApp */,
+				03B6CD9E2378100E00F533D6 /* Products */,
+				BCCB43A90859DA51416A80E3 /* Pods */,
+				96D2C5426BDEE4A87AC83811 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03B6CD9E2378100E00F533D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03B6CD9D2378100E00F533D6 /* resetPasswordApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03B6CD9F2378100E00F533D6 /* resetPasswordApp */ = {
+			isa = PBXGroup;
+			children = (
+				03B6CDA02378100E00F533D6 /* AppDelegate.swift */,
+				03B6CDA22378100E00F533D6 /* SceneDelegate.swift */,
+				03B6CDA42378100E00F533D6 /* ViewController.swift */,
+				03B6CDA62378100E00F533D6 /* Main.storyboard */,
+				03B6CDA92378100F00F533D6 /* Assets.xcassets */,
+				03B6CDAB2378100F00F533D6 /* LaunchScreen.storyboard */,
+				03B6CDAE2378100F00F533D6 /* Info.plist */,
+			);
+			path = resetPasswordApp;
+			sourceTree = "<group>";
+		};
+		96D2C5426BDEE4A87AC83811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57DE80C1C780ADA7D94AEDA2 /* Pods_resetPasswordApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCCB43A90859DA51416A80E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58E94CC3D24305305F56CB01 /* Pods-resetPasswordApp.debug.xcconfig */,
+				5D405415C1FC9566ACC8FF23 /* Pods-resetPasswordApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03B6CD9C2378100E00F533D6 /* resetPasswordApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03B6CDB12378100F00F533D6 /* Build configuration list for PBXNativeTarget "resetPasswordApp" */;
+			buildPhases = (
+				AE961970ED2445B4E8764B8D /* [CP] Check Pods Manifest.lock */,
+				03B6CD992378100E00F533D6 /* Sources */,
+				03B6CD9A2378100E00F533D6 /* Frameworks */,
+				03B6CD9B2378100E00F533D6 /* Resources */,
+				BC246301DB4194FC187EEBE0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = resetPasswordApp;
+			productName = resetPasswordApp;
+			productReference = 03B6CD9D2378100E00F533D6 /* resetPasswordApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03B6CD952378100E00F533D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Ebrahim  Mo Gedamy";
+				TargetAttributes = {
+					03B6CD9C2378100E00F533D6 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 03B6CD982378100E00F533D6 /* Build configuration list for PBXProject "resetPasswordApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03B6CD942378100E00F533D6;
+			productRefGroup = 03B6CD9E2378100E00F533D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03B6CD9C2378100E00F533D6 /* resetPasswordApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03B6CD9B2378100E00F533D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B6CDAD2378100F00F533D6 /* LaunchScreen.storyboard in Resources */,
+				03B6CDAA2378100F00F533D6 /* Assets.xcassets in Resources */,
+				03B6CDA82378100E00F533D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE961970ED2445B4E8764B8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-resetPasswordApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC246301DB4194FC187EEBE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-resetPasswordApp/Pods-resetPasswordApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-resetPasswordApp/Pods-resetPasswordApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-resetPasswordApp/Pods-resetPasswordApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03B6CD992378100E00F533D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B6CDA52378100E00F533D6 /* ViewController.swift in Sources */,
+				03B6CDA12378100E00F533D6 /* AppDelegate.swift in Sources */,
+				03B6CDA32378100E00F533D6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03B6CDA62378100E00F533D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B6CDA72378100E00F533D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03B6CDAB2378100F00F533D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03B6CDAC2378100F00F533D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03B6CDAF2378100F00F533D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03B6CDB02378100F00F533D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03B6CDB22378100F00F533D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E94CC3D24305305F56CB01 /* Pods-resetPasswordApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V639XPXR4D;
+				INFOPLIST_FILE = resetPasswordApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ebrahim-Mo-Gedamy.resetPasswordApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03B6CDB32378100F00F533D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D405415C1FC9566ACC8FF23 /* Pods-resetPasswordApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V639XPXR4D;
+				INFOPLIST_FILE = resetPasswordApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ebrahim-Mo-Gedamy.resetPasswordApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03B6CD982378100E00F533D6 /* Build configuration list for PBXProject "resetPasswordApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B6CDAF2378100F00F533D6 /* Debug */,
+				03B6CDB02378100F00F533D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03B6CDB12378100F00F533D6 /* Build configuration list for PBXNativeTarget "resetPasswordApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B6CDB22378100F00F533D6 /* Debug */,
+				03B6CDB32378100F00F533D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03B6CD952378100E00F533D6 /* Project object */;
+}
